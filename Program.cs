@@ -8,6 +8,7 @@ internal class Program
         //segundo= 
         Mensaje();
         SumaNumeros(15, 25);
+        SumaTresNumeros(10,20,30);
     }
 
     static void Mensaje()
@@ -28,6 +29,13 @@ internal class Program
         //La siguiente nomencaltura sirve para poder poner strings inteligentes ($"{}")
         Console.WriteLine($"la suma de los numeros es {resultado}");
 
+    }
+
+    static int SumaTresNumeros(int num1, int num2, int num3)
+    { 
+        var res = num1 + num2 + num3;
+        Console.WriteLine($"El resultado de la suma de los tres nuemros es {res}");
+        return res;
     }
 
 }
