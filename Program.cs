@@ -34,6 +34,7 @@ internal class Program
     static int SumaTresNumeros(int num1, int num2, int num3)
     { 
         var res = num1 + num2 + num3;
+        //La diferencia con el anterior es que con este si se devuelve el valor del resultado para que pueda utilizarse más tarde
         Console.WriteLine($"El resultado de la suma de los tres nuemros es {res}");
         return res;
     }
